@@ -782,7 +782,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 99c0106990452bc4586575010bd992a0, type: 3}
   - {fileID: 21300000, guid: 600a70699e18be14a9d1c0b58163c976, type: 3}
   - {fileID: 21300000, guid: 2912d469853d9c641851aa8edfbbe751, type: 3}
-  - {fileID: 21300000, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -884871335, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -1566239259, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -258332794, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: 1989861964, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -2017746683, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -431150012, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: -1416456086, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: 426947303, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
+  - {fileID: 2036041967, guid: c27e1569ad3175a4f949b90e121dc9b3, type: 3}
   - {fileID: 21300000, guid: 0ee54f69ddc934249ace71cd96e90952, type: 3}
   - {fileID: 21300000, guid: eb6ca0794a6dc5049958e8d430c8790b, type: 3}
   - {fileID: 21300000, guid: b0c78879c43bea349a167e36ec7c0310, type: 3}
@@ -2033,7 +2041,15 @@ SpriteAtlas:
   - 13
   - Water Reflect Big 04
   - 24
-  - Front Palm Bottom and Grass (32x32)
+  - Front Palm Bottom and Grass (32x32)_2
+  - Front Palm Bottom and Grass (32x32)_3
+  - Front Palm Bottom and Grass (32x32)_0
+  - Front Palm Bottom and Grass (32x32)_1
+  - Front Palm Bottom and Grass (32x32)_6
+  - Front Palm Bottom and Grass (32x32)_7
+  - Front Palm Bottom and Grass (32x32)_4
+  - Front Palm Bottom and Grass (32x32)_5
+  - Front Palm Bottom and Grass (32x32)_8
   - 2
   - 08
   - Back Palm Tree Regular 04

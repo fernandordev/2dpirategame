@@ -9,13 +9,18 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    [SerializeField] private HealthBar healthBar;
+
+    [SerializeField] private int maxHealth = 5;
+    public int currentHealth;
+
     private int life = 5;
-    [SerializeField] private TextMeshProUGUI displayText;
 
     // [SerializeField] private AudioSource deathSoundEffect;
 
     private void Start()
     {
+        currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -24,9 +29,9 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            life--;
-            displayText.text = "Life: " + life;
-            if(life <= 0)
+            currentHealth--;
+            healthBar.SetHealth(currentHealth);
+            if (currentHealth <= 0)
             {
                 Die();
             }
@@ -44,7 +49,7 @@ public class PlayerLife : MonoBehaviour
         anim.SetTrigger("death");
     }
 
-        private void Damage()
+    private void Damage()
     {
         // deathSoundEffect.Play();
         anim.SetTrigger("damage");
@@ -53,6 +58,6 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(2);
     }
 }

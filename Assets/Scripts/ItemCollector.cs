@@ -19,7 +19,7 @@ public class ItemCollector : MonoBehaviour
             // collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             cherries++;
-            displayText.text = "Coins: " + cherries;
+            displayText.text = "" + cherries;
         }
     }
 }
