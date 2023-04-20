@@ -40,6 +40,11 @@ public class PlayerLife : MonoBehaviour
                 Damage();
             }
         }
+
+        if (collision.gameObject.CompareTag("Flag"))
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     private void Die()
